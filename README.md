@@ -10,8 +10,13 @@ It is strongly based on [![pythondi]](https://pypi.org/project/pythondi/)
 ## Installation
 
 ```python
-pip3 install pydilite
+pip install pydilite
 ```
+
+```python
+poetry add pydilite
+```
+
 
 ## Usage
 
@@ -109,4 +114,4 @@ class Usecase:
 By default, manual injection is lazy. If you want a singleton, instantiate it like `repo=SQLRepo()`.
 
 
-[license]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+[license]: https://img.shields.io/badge/License-MIT%202.0-blue.svg
