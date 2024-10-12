@@ -25,7 +25,7 @@ class Provider:
             lazy (bool, optional): Lazy initialization. Defaults to False.
         """
 
-        if not lazy:
+        if not lazy and impl is not None:
             impl = impl()
 
         self._bindings[interface] = impl
