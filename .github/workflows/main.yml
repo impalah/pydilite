@@ -64,9 +64,9 @@ jobs:
       run: |
         poetry run pytest ./tests
 
-    - name: Build documentation
-      run: |
-        poetry run sphinx-build docs_source docs
+    # - name: Build documentation
+    #   run: |
+    #     poetry run sphinx-build docs_source docs
 
     - name: Commit and push documentation
       run: |
